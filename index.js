@@ -25,7 +25,6 @@ app.post("/", (req,res) => {
 
         res.render("index");
     }
-    
 });
 
 app.get("/", (req, res) => {
@@ -34,13 +33,15 @@ app.get("/", (req, res) => {
     } else{
         res.render("index");
     }
-    
 });
 
-
-app.post("/cadastro", (req,res) => {
+app.get("/cadastro", (req,res) => {
     res.render("cadastro");
 });
+
+app.post("/adicionar", (req,res) => {
+    res.redirect("/cadastro")
+})
 
 app.post("/detalhes", (req,res) => {
     res.render("/detalhes")

@@ -5,14 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
     <title>Blue Séries</title>
 
 </head>
 
     <body>
 
+        <nav>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul>
+
+                <li><a href="/cadastro"> Cadastre </a></li>
+                <li><h1><a href="/"> Blue Séries </a></h1></li>
+                <li><a href="/detalhes"></a></li>
+
+            </ul>
+
+        </nav>
+
+        <main>
+
+            <section id="cadastro">
+
+                <div>
+
+                    <h2> Cadastre uma série ou filme! </h2>
+
+                    <form action="/adicionar" method="POST">
+
+                        <label for="nome">Nome da série ou filme</label>
+                        <input type="text" id="nome" name="nome">
+
+                        <label for="genero"> Genero </label>
+                        <input type="text" id="genero" name="genero">
+
+                        <label for="descricao"> Descrição </label>
+                        <input type="text" id="descricao" name="descricao">
+
+                        <label for="elenco">Elenco principal</label>
+                        <input type="text" id="elenco" name="elenco">
+
+                        <label for="indicacao">Ano de lançamento</label>
+                        <input type="text" id="ano" name="ano">
+
+                    </form>
+
+                </div>
+
+            </section>
+
+        </main>
 
         
+        <footer>
+
+            <p>Todos os direitos reservados para </p>
+
+        </footer>
+
     </body>
     
 </html>
