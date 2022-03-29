@@ -1,0 +1,28 @@
+{
+  "name": "projetofinal-mod02",
+  "version": "1.0.0",
+  "description": "Projeto Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthiagoalves/ProjetoFinal-Mod02.git"
+  },
+  "author": "Thiago Alves, Leonardo Tinoco, Beatriz Almeida e Daniel Vinhas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthiagoalves/ProjetoFinal-Mod02/issues"
+  },
+  "homepage": "https://github.com/mthiagoalves/ProjetoFinal-Mod02#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
