@@ -41,12 +41,12 @@ app.get("/cadastro", (req,res) => {
 
 app.post("/adicionar", (req,res) => {
     res.redirect("/cadastro")
-})
+});
 
-app.post("/detalhes", (req,res) => {
-    res.render("/detalhes")
-})
+app.get("/lista", (req,res) => {
+    res.render("lista");
+});
 
 app.listen(port, ()=> {
     console.log(`Servidor rodando na URL: http://localhost:${port}`)
-})
+});

@@ -19,7 +19,7 @@
    /* justify-content: center; */
    /* align-items: center; */
    background: rgba(0, 0, 0, 0.787);
-   overflow: hidden;
+   /* overflow: hidden; */
    flex-direction: column;
 }
 
@@ -377,6 +377,58 @@ nav ul li a{
    transform: scale(1.1);
 }
 
+section#cadastro{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 3rem;
+  justify-content: center;
+}
+
+section#cadastro h2{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+
+section#cadastro form input{
+  min-width: 350px;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: solid 2px #fff;
+  border-radius: 3px 20px;
+  background-color: aliceblue;
+  flex-direction: column;
+  display: flex;
+}
+
+section#cadastro form label{
+  color: #fff;
+}
+
+section#cadastro form button{
+  padding: 0.6rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  background-color: aliceblue;
+  border: solid 1px #000;
+  border-radius: 10px 0 10px 0;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+
+section#cadastro form button:hover{
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
 footer{
   width: 100%;
   background:rgba(255, 255, 255, 5%);
@@ -393,6 +445,31 @@ footer p{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.swiper{
+  width: 100%;
+  height: 100%;
+  min-width: 700px;
+}
+
+.swiper-slide{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+}
+
+.swiper-slide img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
