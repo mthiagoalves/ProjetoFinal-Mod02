@@ -447,25 +447,25 @@ footer p{
   justify-content: center;
 }
 
-.swiper{
+.swiper {
   width: 100%;
-  height: 100%;
-  min-width: 700px;
+  height: 60%;
 }
 
-.swiper-slide{
+.swiper-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
 }
 
-.swiper-slide img{
+.swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
